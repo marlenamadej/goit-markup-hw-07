@@ -121,16 +121,15 @@
     align-items: center;
     justify-content: center;
     fill: var(--social-color);
-}
-
-.social-list-item-link:hover,
-.social-list-item-link:focus {
-    background-color: var(--secondary-color);
-    fill:var(--white-color);
-}
-
-.social-list-item-link {
     transition-property: background-color, fill;
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover,
+        &:focus {
+        background-color: var(--secondary-color);
+        fill:var(--white-color);
+    }
 }
+
+
