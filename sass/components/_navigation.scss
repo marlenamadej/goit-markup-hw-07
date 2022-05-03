@@ -1,0 +1,96 @@
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.address-list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+    margin-right: 46px;
+}
+
+.navigation-list,
+.address-list {
+    list-style: none;
+}
+
+.address-list {
+    margin-left: auto;
+}
+
+.address-list-phone {
+    margin-left: 10px;
+}
+
+.address-list-icon-phone {
+    margin-left: 30px;
+}
+
+.address-list-mail {
+    margin-left: 10px;
+}
+
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.address-list-mail,
+.address-list-phone,
+.address-list-icon-mail,
+.address-list-icon-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color:var(--gray-color);
+    fill: var(--gray-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-mail:hover,
+.address-list-mail:focus,
+.address-list-phone:hover,
+.address-list-phone:focus,
+.address-list-icon-mail:hover,
+.address-list-icon-mail:focus,
+.address-list-icon-phone:hover,
+.address-list-icon-phone:focus {
+    color: var(--secondary-color);
+    fill: var(--secondary-color);
+}
+
+.navigation-list-link,
+.address-list-mail,
+.address-list-phone,
+.address-list-icon-mail,
+.address-list-icon-phone{
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current .navigation-list-link::after{
+    position: relative;
+    top: 35px;
+    display:block;
+    justify-content: center;
+    content:"";
+    width:100%;
+    height:4px;
+    border-radius: 2px;
+    background-color: var(--secondary-color);
+}
