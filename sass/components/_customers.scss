@@ -17,20 +17,17 @@
     border: 1px solid var(--social-color);
     box-sizing: border-box;
     fill: var(--social-color);
+    transition-property: fill, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+    fill: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
 }
 
 .customers-list-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.customers-list-item-link:hover,
-.customers-list-item-link:focus {
-    fill: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-}
-
-.customers-list-item-link {
-    transition-property: fill, border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
