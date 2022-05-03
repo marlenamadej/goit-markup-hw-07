@@ -103,31 +103,4 @@
     padding-bottom: 16px;
 }
 
-.social-list {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-bottom: 30px;
-}
-
-.social-list-item-link {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    background-color: var(--white-color);
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    fill: var(--social-color);
-    transition-property: background-color, fill;
-    transition-duration: 250ms; 
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        &:hover,
-        &:focus {
-        background-color: var(--secondary-color);
-        fill:var(--white-color);
-    }
-}
-
 
