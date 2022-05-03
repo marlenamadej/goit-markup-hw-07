@@ -7,6 +7,12 @@
     padding-bottom: 94px;
 }
 
+.customers-list-item{
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
 .customers-list-item-link {
     display: flex;
     width: 170px;
@@ -26,8 +32,3 @@
         border: 1px solid var(--secondary-color);
     }
 }
-
-.customers-list-item:not(:last-child) {
-    margin-right: 30px;
-}
-
