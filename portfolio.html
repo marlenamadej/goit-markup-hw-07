@@ -16,51 +16,52 @@
 </head>
 
 <body>
-    <section class="section-header">
+    <section class="navigationsection">
         <header class="header">
             <div class="container">
-                <a class="logo link" href="index.html">Web<span class="logocolor">Studio</span></a>
-                <nav class="navigation">
-                    <ul class="navigation-list">
-                        <li class="navigation-list-item"><a class="navigation-list-link"
+                <a class="logo link" href="index.html">Web<span class="logo--lighttheme">Studio</span></a>
+                <nav class="nav">
+                    <ul class="navigation">
+                        <li class="navigation__item"><a class="navigation__link"
                                 href="index.html">Agencja</a>
                         </li>
-                        <li class="navigation-list-item current"><a class="navigation-list-link"
+                        <li class="navigation__item current"><a class="navigation__link"
                                 href="portfolio.html">Portfolio</a></li>
-                        <li class="navigation-list-item"><a class="navigation-list-link" href="#">Kontakt</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Kontakt</a></li>
                     </ul>
                 </nav>
 
-                <ul class="address-list">
-                    <li><a class="address-list-icon-mail link" href="mailto:info@devstudio.com"><svg
-                                class="address-list-icon-mail" width="16" height="12">
+                <ul class="contact">
+                    <li class="contact__item"><a class="contact__link--icon-mail link" href="mailto:info@devstudio.com"><svg
+                                class="contact__link--icon-mail" width="16" height="12">
                                 <use href="images/icons.svg#icon-envelope"></use>
                             </svg></a></li>
-                    <li><a class="address-list-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="address-list-icon-phone link" href="tel:+48111111111"><svg
-                                class="address-list-icon-phone" width="10" height="16">
+                    <li class="contact__item"><a class="contact__link--mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="contact__item"><a class="contact__link--icon-phone link" href="tel:+48111111111"><svg
+                                class="contact__link--icon-phone link" width="10" height="16">
                                 <use href="images/icons.svg#icon-smartphone"></use></a></li>
-                    <li><a class="address-list-phone link" href="tel:+48111111111">+48 111 111 111</a></li>
+                    <li class="contact__item"><a class="contact__link--phone link" href="tel:+48111111111">+48 111 111 111</a></li>
                 </ul>
             </div>
         </header>
     </section>
     <main>
-        <section class="portfolio-nav" <div class="container">
-            <ul class="portfolio-nav-list">
-                <li class="menu-item"><button class="menu-button" type="button">Wszystkie</button></li>
-                <li class="menu-item"><button class="menu-button" type="button">Strony</button></li>
-                <li class="menu-item"><button class="menu-button" type="button">Aplikacje</button></li>
-                <li class="menu-item"><button class="menu-button" type="button">Dizajn</button></li>
-                <li class="menu-item"><button class="menu-button" type="button">Marketing</button></li>
+        <section class="menusection"> 
+            <div class="container">
+            <ul class="menu">
+                <li class="menu__item"><button class="menu__button" type="button">Wszystkie</button></li>
+                <li class="menu__item"><button class="menu__button" type="button">Strony</button></li>
+                <li class="menu__item"><button class="menu__button" type="button">Aplikacje</button></li>
+                <li class="menu__item"><button class="menu__button" type="button">Dizajn</button></li>
+                <li class="menu__item"><button class="menu__button" type="button">Marketing</button></li>
             </ul>
             </div>
 
         </section>
-        <section class="projects-nav">
+        <section class="projectssection">
             <div class="container">
                 <ul class="projects">
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/technocrackresized.jpg" alt="Technocrack" width="370" height="294" />
@@ -71,13 +72,13 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Technocrack</p>
-                                <p class="portfolio-description">Strona internetowa</p>
+                                <p class="projects__title">Technocrack</p>
+                                <p class="projects__description">Strona internetowa</p>
                             </figcaption>
                         </figure>
                     </li>
 
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/grafikaneworleanresized.jpg" alt="Grafika New Orlean vs Golden Star" width="370" height="294" />
@@ -88,13 +89,13 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Grafika New Orlean vs Golden Star</p>
-                                <p class="portfolio-description">Dizajn</p>
+                                <p class="projects__title">Grafika New Orlean vs Golden Star</p>
+                                <p class="projects__description">Dizajn</p>
                             </figcaption>
                         </figure>
                     </li>
 
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/restauracjaseafoodresized.jpg" alt="Restauracja Seafood" width="370" height="294" />
@@ -105,13 +106,13 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Restauracja Seafood</p>
-                                <p class="portfolio-description">Aplikacja</p>
+                                <p class="projects__title">Restauracja Seafood</p>
+                                <p class="projects__description">Aplikacja</p>
                             </figcaption>
                         </figure>
                     </li>
 
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/projektprimeresized.jpg" alt="Projekt Prime" width="370" height="294" />
@@ -122,13 +123,13 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Projekt Prime</p>
-                                <p class="portfolio-description">Marketing</p>
+                                <p class="projects__title">Projekt Prime</p>
+                                <p class="projects__description">Marketing</p>
                             </figcaption>
                         </figure>
                     </li>
 
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/projektboxesresized.jpg" alt="Projekt Boxes" width="370" height="294" />
@@ -139,13 +140,13 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Projekt Boxes</p>
-                                <p class="portfolio-description">Aplikacja</p>
+                                <p class="projects__title">Projekt Boxes</p>
+                                <p class="projects__description">Aplikacja</p>
                             </figcaption>
                         </figure>
                     </li>
 
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/inspirationhasnobordersresized.jpg" alt="Inspiration has no Borders" width="370" height="294" />
@@ -156,13 +157,13 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Inspiration has no Borders</p>
-                                <p class="portfolio-description">Strona internetowa</p>
+                                <p class="projects__title">Inspiration has no Borders</p>
+                                <p class="projects__description">Strona internetowa</p>
                             </figcaption>
                         </figure>
                     </li>
 
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/magazynlimitededitionresized.jpg" alt="Magazyn Limited Edition" width="370" height="294" />
@@ -173,13 +174,13 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Magazyn Limited Edition</p>
-                                <p class="portfolio-description">Dizajn</p>
+                                <p class="projects__title">Magazyn Limited Edition</p>
+                                <p class="projects__description">Dizajn</p>
                             </figcaption>
                         </figure>
                     </li>
 
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/projektlabresized.jpg" alt="Projekt LAB" width="370" height="294" />
@@ -190,13 +191,13 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Projekt LAB</p>
-                                <p class="portfolio-description">Marketing</p>
+                                <p class="projects__title">Projekt LAB</p>
+                                <p class="projects__description">Marketing</p>
                             </figcaption>
                         </figure>
                     </li>
 
-                    <li class="projects-item">
+                    <li class="projects__item">
                         <figure class="pic">
                             <div class="box">
                                 <img src="images/growingbusinessresized.jpg" alt="Growing Business" width="370" height="294" />
@@ -207,8 +208,8 @@
                                 </div>
                             </div>
                             <figcaption>
-                                <p class="portfolio-title">Growing Business</p>
-                                <p class="portfolio-description">Aplikacja</p>
+                                <p class="projects__title">Growing Business</p>
+                                <p class="projects__description">Aplikacja</p>
                             </figcaption>
                         </figure>
                     </li>
@@ -217,44 +218,44 @@
         </section>
 
     </main>
-    <footer class="footer">
+    <footer class="footersection">
         <div class="container">
-            <ul class="footer-list">
+            <ul class="footer">
                 <li class="information">
-                    <a class="footer-logo" href="index.html">Web<span class="logocolor-white">Studio</span></a>
-                    <address class="footer-address">
+                    <a class="logo" href="index.html">Web<span class="logo--darktheme">Studio</span></a>
+                    <address class="information__address">
                         <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-                        <a class="footer-address-mail" href="mailto:info@example.com">info@example.com</a>
-                        <a class="footer-address-phone" href="tel:+48111111111">+48 111 111 111</a>
+                        <a class="information__mail" href="mailto:info@example.com">info@example.com</a>
+                        <a class="information__phone" href="tel:+48111111111">+48 111 111 111</a>
                     </address>
                 </li>
                 <li class="join">
-                    <h4 class="social-footer-header">DOŁĄCZ DO NAS</h4>
-                    <ul class="social-footer-list">
-                        <li class="social-footer-list-item">
-                            <a class="social-footer-list-item-link" href="#">
-                                <svg class="social-footer-icon" width="20" height="20">
+                    <h4 class="join__header">DOŁĄCZ DO NAS</h4>
+                    <ul class="socialmedia">
+                        <li class="socialmedia__item">
+                            <a class="socialmedia__link--darktheme" href="#">
+                                <svg class="socialmedia__icon" width="20" height="20">
                                     <use href="images/icons.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-footer-list-item">
-                            <a class="social-footer-list-item-link" href="#">
-                                <svg class="social-footer-icon" width="20" height="20">
+                        <li class="socialmedia__item">
+                            <a class="socialmedia__link--darktheme" href="#">
+                                <svg class="socialmedia__icon" width="20" height="20">
                                     <use href="images/icons.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-footer-list-item">
-                            <a class="social-footer-list-item-link" href="#">
-                                <svg class="social-footer-icon" width="20" height="20">
+                        <li class="socialmedia__item">
+                            <a class="socialmedia__link--darktheme" href="#">
+                                <svg class="socialmedia__icon" width="20" height="20">
                                     <use href="images/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-footer-list-item">
-                            <a class="social-footer-list-item-link" href="#">
-                                <svg class="social-footer-icon" width="20" height="20">
+                        <li class="socialmedia__item">
+                            <a class="socialmedia__link--darktheme" href="#">
+                                <svg class="socialmedia__icon" width="20" height="20">
                                     <use href="images/icons.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -262,13 +263,13 @@
                     </ul>
                 </li>
                 <li class="newsletter">
-                    <h4 class="newsletter-header">ZAPISZ SIĘ DO NEWSLETTERA</h4>
-                    <form class="newsletter-form">
-                        <label name="sign-form">
-                            <input type="email" class="newsletter-form-input" name="email" placeholder="E-mail"/>
+                    <h4 class="newsletter__header">ZAPISZ SIĘ DO NEWSLETTERA</h4>
+                    <form class="newsletter__form">
+                        <label>
+                            <input type="email" class="newsletter__input" name="email" placeholder="E-mail"/>
                         </label>
-                        <button class="newsletter-button" type="submit"><p class=sign-in>Zapisz się</p>
-                            <svg class="newsletter-button-icon" width="24" height="24">
+                        <button class="newsletter__button" type="submit"><p class=sign-in>Zapisz się</p>
+                            <svg class="newsletter__icon" width="24" height="24">
                                 <use href="images/icons.svg#icon-icon-send"></use>
                             </svg>
                         </button>
