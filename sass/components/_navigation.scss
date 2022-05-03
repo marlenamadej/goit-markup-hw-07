@@ -1,46 +1,23 @@
-.navigation {
+.nav {
     display: flex;
 }
 
-.navigation-list,
-.address-list {
+.navigation,
+.contact {
     display: flex;
     align-items: center;
     list-style: none;
     margin-left: auto;
 }
 
-.navigation-list-item{
-    &:not(:last-child) {
-        margin-right: 46px;
-    }
-}
-
-.address-list-phone,
-.address-list-mail {
-    margin-left: 10px;
-}
-
-.address-list-icon-phone {
-    margin-left: 30px;
-}
-
-.navigation-list-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--main-color);
-    transition-property: color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        &:hover,
-        &:focus{
-            color: var(--secondary-color);
-            fill: var(--secondary-color);
-        }   
-        
+.navigation{
+    &__item{
+        padding-top:32px;
+        padding-bottom:32px;
+        &:not(:last-child) {
+            margin-right: 46px;
+        }
+    
         .current &::after{
             position: relative;
             top: 35px;
@@ -52,12 +29,40 @@
             border-radius: 2px;
             background-color: var(--secondary-color);
         }
+    }
+
+    &__link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: var(--main-color);
+        transition-property: color, fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            &:hover,
+            &:focus{
+                color: var(--secondary-color);
+                fill: var(--secondary-color);
+            }   
+    }
+
 }
 
-.address-list-mail,
-.address-list-phone,
-.address-list-icon-mail,
-.address-list-icon-phone {
+.contact__link--phone,
+.contact__link--mail {
+    margin-left: 10px;
+}
+
+.contact__link--icon-phone {
+    margin-left: 30px;
+}
+
+.contact__link--phone,
+.contact__link--mail,
+.contact__link--icon-phone,
+.contact__link--icon-mail {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
