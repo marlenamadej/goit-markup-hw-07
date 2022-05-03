@@ -21,16 +21,15 @@
     border-radius: 4px;
     justify-content: center;
     align-items: center;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
 .features-icon {
     justify-content: center;
     align-items: center;
     margin: 25px 100px 25px 100px;
-}
-
-.features-item:not(:last-child) {
-    margin-right: 30px;
 }
 
 .features-title {
