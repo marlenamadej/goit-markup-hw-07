@@ -84,6 +84,11 @@
     padding-left: 42px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline:none;
+      &:hover,  
+      &:focus {
+      border-color: var(--secondary-color);
+      outline: none;
+    }
   }
   
 .modal-form-icon {
@@ -93,11 +98,6 @@
     left: 12px;
     fill: var(--main-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-.modal-form-input:focus {
-    border-color: var(--secondary-color);
-    outline: none;
   }
   
 .modal-form-input:focus + .modal-form-icon {
@@ -114,12 +114,12 @@
     border-radius: 4px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,  
+    &:focus {
+      border-color: var(--secondary-color);
+    }
   }
   
-.modal-form-message:focus {
-    border-color: var(--secondary-color);
-  }
-
 .policy {
     display: flex;
     flex-direction: row;
@@ -166,24 +166,20 @@
     margin-right: 164px;
     margin-bottom: 40px;
     margin-left: 164px;
-  }
-
-.order-btn:hover,
-.order-btn:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    cursor: pointer;
-}
-
-.order-btn {
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-  
+      &:hover,
+      &:focus {
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+      }
+  }
+
 .modal-form-policy-text::before {
     display: inline-flex;
-    content: "";
+    content:"";
     width: 16px;
     height: 16px;
     border: 2px solid var(--main-color);
@@ -219,16 +215,12 @@
     color: var(--white-color);
     margin:30px 164px 40px 164px;
     padding:10px 76px;
-}
-
-.form-button:hover,
-.form-button:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-}
-
-.form-button {
     transition-property: box-shadow, pointer;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      &:hover,
+      &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
 }
