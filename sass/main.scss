@@ -1,17 +1,19 @@
-@import "./utils/_visually-hidden";
-@import "./utils/_variables";
+@import 'utils/visually-hidden';
+@import 'utils/variables';
 
-@import "./components/_common";
-@import "./components/_container";
-@import "./components/_navigation";
-@import "./components/_logo";
-@import "./components/_header";
-@import "./components/_main-background;
-@import "./components/_modal-btn";
-@import "./components/_backdrop";
-@import "./components/_modal";
-@import "./components/_features";
-@import "./components/_team-offer";
-@import "./components/_customers";
-@import "./components/_footer";
-@import "./components/_portfolio";
+@import 'components/common';
+@import 'components/container';
+@import 'components/navigation';
+@import 'components/logo';
+@import 'components/header';
+@import 'components/main-background';
+@import 'components/modal-btn';
+@import 'components/backdrop';
+@import 'components/modal';
+@import 'components/features';
+@import 'components/team-offer';
+@import 'components/customers';
+@import 'components/footer';
+@import 'components/portfolio';
+
+
