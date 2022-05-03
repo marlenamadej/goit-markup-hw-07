@@ -41,40 +41,6 @@
     }
 }
 
-.social-footer-header {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.142;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--white-color);
-    padding-bottom: 20px;
-}
-
-.social-footer-list {
-    display: flex;
-    list-style: none;
-}
-
-.social-footer-list-item-link {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-    fill: var(--white-color);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        &:hover,
-        &:focus {
-        background-color: var(--secondary-color);
-    }
-}
-
 .footer-list {
     display: flex;
     list-style: none;
