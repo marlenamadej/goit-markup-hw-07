@@ -1,3 +1,17 @@
-body{
-    margin:0;
-}
+@import "./utils/_visually-hidden";
+@import "./utils/_variables";
+
+@import "./components/_common";
+@import "./components/_container";
+@import "./components/_navigation";
+@import "./components/_logo";
+@import "./components/_header";
+@import "./components/_main-background;
+@import "./components/_modal-btn";
+@import "./components/_backdrop";
+@import "./components/_modal";
+@import "./components/_features";
+@import "./components/_team-offer";
+@import "./components/_customers";
+@import "./components/_footer";
+@import "./components/_portfolio";
