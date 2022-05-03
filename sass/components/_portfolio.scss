@@ -20,10 +20,9 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
-}
-
-.menu-item:not(:last-child) {
-    margin-right: 8px;
+        &:not(:last-child) {
+            margin-right: 8px;
+        }
 }
 
 .menu-button {
@@ -83,11 +82,10 @@
 
 .pic {
     margin: 0 auto;
-}
-
-.pic:hover .overlay,
-.pic:focus .overlay {
-    transform: translatex(0);
+        &:hover .overlay,
+        &:focus .overlay {
+            transform: translatex(0);
+        }
 }
 
 .box {
